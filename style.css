@@ -1,0 +1,191 @@
+
+/*font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Inconsolata', monospace;*/
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+}
+header{
+    padding: 20px 0;
+
+}
+.wrapper{
+    overflow: hidden;
+    margin: 0 auto;
+    width: 90%;
+}
+.logo{
+    width: 15%;
+    float: left;
+    margin-top: 13px;
+}
+.logo img{
+    width: 100%;
+}
+/* <if we use logo as text>
+.logo a{
+    font-family: 'Inconsolata', monospace;
+    font-weight: 400;
+    font-size: 30px;
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    }*/
+    .menu{
+        width: 60%;
+        float: right;
+    }
+    .menu ul{
+        float: right;
+    }
+    .menu ul li{
+        list-style: none;
+        float: left;    
+    }
+    .menu ul li a{
+        font-weight: 400;
+        font-size: 16px;
+        color: #626262;
+        text-decoration: none;
+        text-transform: uppercase;
+        display: inline-block;
+        margin: 0 60px;
+        padding: 5px 0;
+        transition: .3s;
+
+    }
+    .menu ul li: last-child a{
+        margin-right: 0;
+    }
+    .menu ul li a: hover{
+        border-bottom: 1px solid #626262;
+    }
+    .banner{
+
+    }
+    .b_img{
+
+    }
+    .b_img img{
+        width: 100%;
+    }
+    .about{
+        padding: 50px 0;
+    }
+    .wrapper2{
+        overflow: hidden;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .a-content{
+
+    }
+    .light{
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 300;
+        font-size: 14px;
+        color: #b4ad9e;
+        text-transform: uppercase;
+    }
+    .h1{
+        font-weight: 400;
+        font-size: 30px;
+
+    }
+    .text{
+        line-height: 25px;
+        letter-spacing: 1px;
+        margin-bottom: 40px;
+
+    }
+    .form{
+        background-color: #F0F0F0;
+    }
+    .sign-up {
+        width: 314px;
+        margin: auto;
+        padding: 80px 0;
+    }
+    .sign-up h2 {
+        word-spacing: 5px;
+        margin-bottom: 75px;
+    }
+    .email {
+        border-bottom: 1px solid black;
+    }
+    .email input {
+        border: none;
+        background-color: #F0F0F0;
+        width: 278px;
+        height: 31px;
+    }
+    .blog{
+
+    }
+    .single{
+        width: 47%;
+        float: left;
+    }
+    .single:nth-child(even){
+        margin-left: 6%;
+    }
+    .single img{
+        width: 100%;
+    }
+    .loadmore{
+        padding: 100px 0;
+    }
+    .load{
+        text-align: center;
+    }
+    .load button{
+        font-family: 'Playfair Display', serif;
+        font-size: 20px;
+        color: #626262;
+        width: 165px;
+        height: 60px;
+        background-color: transparent;
+    }
+    .footer{
+        background-color: #f0f0f0;
+    }
+    .term{
+        width: 20%;
+        float: left;
+    }
+    .term ul, .icon ul{
+        margin: 0;
+        padding: 0;
+    }
+    .term ul li, .icon ul li{
+        list-style: none;
+        float: left;
+    }
+    .term ul li a{
+        color: #000000;
+        text-decoration: none;
+        text-transform: capitalize;
+        display: inline-block;
+        padding: 5px 5px;
+    }
+    .icon{
+        width: 15%;
+        float: right;
+    }
+    .icon ul{
+        float: right;
+    }
+    .icon ul li span{
+        padding: 0 10px;
+    }
+    .icon ul li a{
+        color: #000000;
+        text-transform: capitalize;
+        display: inline-block;
+        padding: 0px 10px;
+
+    }
